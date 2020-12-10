@@ -1,0 +1,264 @@
+\hypertarget{controler_8php}{}\doxysection{src/controler/controler.php File Reference}
+\label{controler_8php}\index{src/controler/controler.php@{src/controler/controler.php}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{controler_8php_a174b8e4c7d4d7363c6f773671defdeff}{home}} ()
+\begin{DoxyCompactList}\small\item\em function for home \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a43b8d30b879d4f09ceb059b02af2bc02}{error}} ()
+\begin{DoxyCompactList}\small\item\em function in case of an error \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a1deb83ccf1d86931958bbda9b7a8f5fd}{login}} (\$in)
+\begin{DoxyCompactList}\small\item\em function to log in \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a5b31a2d2d73bda22e4cd559e61ef9747}{register}} (\$in)
+\begin{DoxyCompactList}\small\item\em function to register \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_aae5ec5bc9d1fe58a9a36b56fb4de33ec}{products}} (\$type, \$code)
+\item 
+\mbox{\hyperlink{controler_8php_ac9e91496d7d4e9149fb2e72f725df756}{a\+Product}} (\$code)
+\begin{DoxyCompactList}\small\item\em function to display a product, change or delete \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_af8cd89021ebc0dc872b488d0818e35ad}{detailled\+Product}} (\$code)
+\begin{DoxyCompactList}\small\item\em show detailled product \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a7b866a8d88716760d41a33807ef80d11}{cart}} ()
+\begin{DoxyCompactList}\small\item\em function to display the cart \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_ac2d00ff7df3ea1845a8abe09599f9f7a}{add\+Cart}} (\$code, \$quantity, \$delete)
+\begin{DoxyCompactList}\small\item\em function to add products to the cart \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_ad0714bd4fb92592299b545ab37211f38}{edit}} (\$code)
+\begin{DoxyCompactList}\small\item\em function to edit products \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_ae960ce3845d3a283d1cc33bfed5187c2}{edit\+Product}} (\$in)
+\begin{DoxyCompactList}\small\item\em function to edit products \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a4521ada44dc070f6bf3a3dc6029ce29a}{add\+Product}} (\$in)
+\begin{DoxyCompactList}\small\item\em function to edit products \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a43874348270d511575b3acc792df6b9e}{clear\+Cart}} ()
+\begin{DoxyCompactList}\small\item\em clear cart and redirt to the cart page \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a580194851d7e3e738e44dd38a4b62037}{confirm\+Order}} (\$in)
+\begin{DoxyCompactList}\small\item\em function to confirm order \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a6933ac3058310c19c5a14adabaaf7268}{checkout\+Paypal}} ()
+\begin{DoxyCompactList}\small\item\em call the page with the paypal checkout \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_ad2647ed092fb7592f96b9cb7171e00de}{finalize\+Order}} ()
+\begin{DoxyCompactList}\small\item\em once the checkout is done, emtpy cart and redirt to the confirm\+Order\+Message page \end{DoxyCompactList}\item 
+\mbox{\hyperlink{controler_8php_a082405d89acd6835c3a7c7a08a7adbab}{logout}} ()
+\begin{DoxyCompactList}\small\item\em function to logout \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{controler_8php_ac2d00ff7df3ea1845a8abe09599f9f7a}\label{controler_8php_ac2d00ff7df3ea1845a8abe09599f9f7a}} 
+\index{controler.php@{controler.php}!addCart@{addCart}}
+\index{addCart@{addCart}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{addCart()}{addCart()}}
+{\footnotesize\ttfamily add\+Cart (\begin{DoxyParamCaption}\item[{}]{\$code,  }\item[{}]{\$quantity,  }\item[{}]{\$delete }\end{DoxyParamCaption})}
+
+
+
+function to add products to the cart 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s code \\
+\hline
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s quantity \\
+\hline
+{\em bool} & \+: it\textquotesingle{}ll delete the product if set to true \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_a4521ada44dc070f6bf3a3dc6029ce29a}\label{controler_8php_a4521ada44dc070f6bf3a3dc6029ce29a}} 
+\index{controler.php@{controler.php}!addProduct@{addProduct}}
+\index{addProduct@{addProduct}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{addProduct()}{addProduct()}}
+{\footnotesize\ttfamily add\+Product (\begin{DoxyParamCaption}\item[{}]{\$in }\end{DoxyParamCaption})}
+
+
+
+function to edit products 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \+: the product\textquotesingle{}s informations when adding a new product \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_ac9e91496d7d4e9149fb2e72f725df756}\label{controler_8php_ac9e91496d7d4e9149fb2e72f725df756}} 
+\index{controler.php@{controler.php}!aProduct@{aProduct}}
+\index{aProduct@{aProduct}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{aProduct()}{aProduct()}}
+{\footnotesize\ttfamily a\+Product (\begin{DoxyParamCaption}\item[{}]{\$code }\end{DoxyParamCaption})}
+
+
+
+function to display a product, change or delete 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s code \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_a7b866a8d88716760d41a33807ef80d11}\label{controler_8php_a7b866a8d88716760d41a33807ef80d11}} 
+\index{controler.php@{controler.php}!cart@{cart}}
+\index{cart@{cart}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{cart()}{cart()}}
+{\footnotesize\ttfamily cart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function to display the cart 
+
+\mbox{\Hypertarget{controler_8php_a6933ac3058310c19c5a14adabaaf7268}\label{controler_8php_a6933ac3058310c19c5a14adabaaf7268}} 
+\index{controler.php@{controler.php}!checkoutPaypal@{checkoutPaypal}}
+\index{checkoutPaypal@{checkoutPaypal}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{checkoutPaypal()}{checkoutPaypal()}}
+{\footnotesize\ttfamily checkout\+Paypal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+call the page with the paypal checkout 
+
+\mbox{\Hypertarget{controler_8php_a43874348270d511575b3acc792df6b9e}\label{controler_8php_a43874348270d511575b3acc792df6b9e}} 
+\index{controler.php@{controler.php}!clearCart@{clearCart}}
+\index{clearCart@{clearCart}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{clearCart()}{clearCart()}}
+{\footnotesize\ttfamily clear\+Cart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+clear cart and redirt to the cart page 
+
+\mbox{\Hypertarget{controler_8php_a580194851d7e3e738e44dd38a4b62037}\label{controler_8php_a580194851d7e3e738e44dd38a4b62037}} 
+\index{controler.php@{controler.php}!confirmOrder@{confirmOrder}}
+\index{confirmOrder@{confirmOrder}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{confirmOrder()}{confirmOrder()}}
+{\footnotesize\ttfamily confirm\+Order (\begin{DoxyParamCaption}\item[{}]{\$in }\end{DoxyParamCaption})}
+
+
+
+function to confirm order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \+: the product\textquotesingle{}s informations when adding a new product \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_af8cd89021ebc0dc872b488d0818e35ad}\label{controler_8php_af8cd89021ebc0dc872b488d0818e35ad}} 
+\index{controler.php@{controler.php}!detailledProduct@{detailledProduct}}
+\index{detailledProduct@{detailledProduct}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{detailledProduct()}{detailledProduct()}}
+{\footnotesize\ttfamily detailled\+Product (\begin{DoxyParamCaption}\item[{}]{\$code }\end{DoxyParamCaption})}
+
+
+
+show detailled product 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s code \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_ad0714bd4fb92592299b545ab37211f38}\label{controler_8php_ad0714bd4fb92592299b545ab37211f38}} 
+\index{controler.php@{controler.php}!edit@{edit}}
+\index{edit@{edit}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{edit()}{edit()}}
+{\footnotesize\ttfamily edit (\begin{DoxyParamCaption}\item[{}]{\$code }\end{DoxyParamCaption})}
+
+
+
+function to edit products 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s code \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_ae960ce3845d3a283d1cc33bfed5187c2}\label{controler_8php_ae960ce3845d3a283d1cc33bfed5187c2}} 
+\index{controler.php@{controler.php}!editProduct@{editProduct}}
+\index{editProduct@{editProduct}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{editProduct()}{editProduct()}}
+{\footnotesize\ttfamily edit\+Product (\begin{DoxyParamCaption}\item[{}]{\$in }\end{DoxyParamCaption})}
+
+
+
+function to edit products 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s code \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_a43b8d30b879d4f09ceb059b02af2bc02}\label{controler_8php_a43b8d30b879d4f09ceb059b02af2bc02}} 
+\index{controler.php@{controler.php}!error@{error}}
+\index{error@{error}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function in case of an error 
+
+\mbox{\Hypertarget{controler_8php_ad2647ed092fb7592f96b9cb7171e00de}\label{controler_8php_ad2647ed092fb7592f96b9cb7171e00de}} 
+\index{controler.php@{controler.php}!finalizeOrder@{finalizeOrder}}
+\index{finalizeOrder@{finalizeOrder}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{finalizeOrder()}{finalizeOrder()}}
+{\footnotesize\ttfamily finalize\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+once the checkout is done, emtpy cart and redirt to the confirm\+Order\+Message page 
+
+\mbox{\Hypertarget{controler_8php_a174b8e4c7d4d7363c6f773671defdeff}\label{controler_8php_a174b8e4c7d4d7363c6f773671defdeff}} 
+\index{controler.php@{controler.php}!home@{home}}
+\index{home@{home}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{home()}{home()}}
+{\footnotesize\ttfamily home (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function for home 
+
+\mbox{\Hypertarget{controler_8php_a1deb83ccf1d86931958bbda9b7a8f5fd}\label{controler_8php_a1deb83ccf1d86931958bbda9b7a8f5fd}} 
+\index{controler.php@{controler.php}!login@{login}}
+\index{login@{login}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily login (\begin{DoxyParamCaption}\item[{}]{\$in }\end{DoxyParamCaption})}
+
+
+
+function to log in 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \+: An array with the password and the username of the user \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_a082405d89acd6835c3a7c7a08a7adbab}\label{controler_8php_a082405d89acd6835c3a7c7a08a7adbab}} 
+\index{controler.php@{controler.php}!logout@{logout}}
+\index{logout@{logout}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily logout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function to logout 
+
+\mbox{\Hypertarget{controler_8php_aae5ec5bc9d1fe58a9a36b56fb4de33ec}\label{controler_8php_aae5ec5bc9d1fe58a9a36b56fb4de33ec}} 
+\index{controler.php@{controler.php}!products@{products}}
+\index{products@{products}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{products()}{products()}}
+{\footnotesize\ttfamily products (\begin{DoxyParamCaption}\item[{}]{\$type,  }\item[{}]{\$code }\end{DoxyParamCaption})}
+
+\$brief function to display products or delete 
+\begin{DoxyParams}{Parameters}
+{\em string} & \+: it\textquotesingle{}ll delete or display, depending on what the string is \\
+\hline
+{\em int} & \+: the product\textquotesingle{}s database\textquotesingle{}s code \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controler_8php_a5b31a2d2d73bda22e4cd559e61ef9747}\label{controler_8php_a5b31a2d2d73bda22e4cd559e61ef9747}} 
+\index{controler.php@{controler.php}!register@{register}}
+\index{register@{register}!controler.php@{controler.php}}
+\doxysubsubsection{\texorpdfstring{register()}{register()}}
+{\footnotesize\ttfamily register (\begin{DoxyParamCaption}\item[{}]{\$in }\end{DoxyParamCaption})}
+
+
+
+function to register 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \+: An array with the password, the repeated password and the username of the user \\
+\hline
+\end{DoxyParams}

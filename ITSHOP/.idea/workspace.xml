@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6b2ab00-b284-48bf-95b3-e5b3b6546a1d" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NGY_CPNV-151_2019_startproject-f713dc12096b" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1XOIdt6sTiMWuiho0XQFmxG7gDT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jessy.BORCARD\Documents\ICT120\ICT-151-JBD\NGY_CPNV-151_2019_startproject-f713dc12096b\view" />
+      <recent name="C:\Users\Jessy.BORCARD\Documents\ICT120\ICT-151-JBD\NGY_CPNV-151_2019_startproject-f713dc12096b\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jessy.BORCARD\Documents\ICT120\ICT-151-JBD\NGY_CPNV-151_2019_startproject-f713dc12096b\view\content\images" />
+      <recent name="C:\Users\Jessy.BORCARD\Documents\ICT120\ICT-151-JBD\NGY_CPNV-151_2019_startproject-f713dc12096b\view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Built-in Web Server.WebServer151">
+    <configuration name="dbConnector.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5001/model/dbConnector.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="WebServer151" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="5002">
+      <method v="2" />
+    </configuration>
+    <configuration name="dbConnector.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/dbConnector.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="userManagement.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/userManagement.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.dbConnector.php" />
+      <item itemvalue="PHP Built-in Web Server.WebServer151" />
+      <item itemvalue="PHP Script.dbConnector.php" />
+      <item itemvalue="PHP Script.userManagement.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.userManagement.php" />
+        <item itemvalue="PHP Script.dbConnector.php" />
+        <item itemvalue="JavaScript Debug.dbConnector.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6b2ab00-b284-48bf-95b3-e5b3b6546a1d" name="Default" comment="" />
+      <created>1549388379493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549388379493</updated>
+      <workItem from="1549388380762" duration="156000" />
+      <workItem from="1549388617793" duration="44000" />
+      <workItem from="1549389792708" duration="600000" />
+      <workItem from="1580910806886" duration="1775000" />
+      <workItem from="1580913917809" duration="167000" />
+      <workItem from="1580914096350" duration="29000" />
+      <workItem from="1580914137896" duration="62000" />
+      <workItem from="1580914236297" duration="134000" />
+      <workItem from="1580914380486" duration="381000" />
+      <workItem from="1580993218009" duration="82000" />
+      <workItem from="1581069543994" duration="1743000" />
+      <workItem from="1581071326897" duration="609000" />
+      <workItem from="1581071943027" duration="2228000" />
+      <workItem from="1581672728164" duration="3453000" />
+      <workItem from="1581677777435" duration="160000" />
+      <workItem from="1581677954907" duration="2314000" />
+      <workItem from="1582534504898" duration="36000" />
+      <workItem from="1582535154968" duration="1209000" />
+      <workItem from="1582721474286" duration="7115000" />
+      <workItem from="1582807335539" duration="199000" />
+      <workItem from="1582882827550" duration="6245000" />
+      <workItem from="1583139699798" duration="8000" />
+      <workItem from="1583325881637" duration="6857000" />
+      <workItem from="1583411688100" duration="30000" />
+      <workItem from="1583489814749" duration="3207000" />
+      <workItem from="1583744523174" duration="50000" />
+      <workItem from="1583931174334" duration="7069000" />
+      <workItem from="1584017367115" duration="334000" />
+      <workItem from="1584093346383" duration="3953000" />
+      <workItem from="1584540143245" duration="206000" />
+      <workItem from="1584540364180" duration="276000" />
+      <workItem from="1584540655319" duration="3991000" />
+      <workItem from="1584621384578" duration="313000" />
+      <workItem from="1584697931235" duration="1355000" />
+      <workItem from="1584953851664" duration="46000" />
+      <workItem from="1585141226233" duration="3690000" />
+      <workItem from="1585227365236" duration="10000" />
+      <workItem from="1585301540722" duration="688000" />
+      <workItem from="1585742345042" duration="2363000" />
+      <workItem from="1589439390955" duration="3017000" />
+      <workItem from="1589449553655" duration="6298000" />
+      <workItem from="1589462678416" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589439405421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589439405421" />
+    <state width="914" height="93" key="GridCell.Tab.0.bottom" timestamp="1589462573958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="93" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589462573958" />
+    <state width="914" height="93" key="GridCell.Tab.0.center" timestamp="1589462573958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="93" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589462573958" />
+    <state width="914" height="93" key="GridCell.Tab.0.left" timestamp="1589462573958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="93" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589462573958" />
+    <state width="914" height="93" key="GridCell.Tab.0.right" timestamp="1589462573958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="93" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589462573958" />
+    <state x="153" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589462678202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="153" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589462678202" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/model/dbConnector.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/model/dbConnector.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/model/dbConnector.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
